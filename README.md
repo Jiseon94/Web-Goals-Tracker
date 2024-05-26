@@ -1,6 +1,10 @@
 # Web-Goals-Tracker
 고려대학교 지능정보sw아카데미 3기 Final Project
 
+➡️**시연영상 (링크 클릭)**
+https://drive.google.com/file/d/1xQeyJ6ttF_my5F0Loe_a2FhvoMgSlJMn/view?usp=sharing
+
+---
 
 ![image](https://github.com/Jiseon94/Web-Goals-Tracker/assets/119651025/b08a7083-c1b6-473f-a64a-4e163a3c5f38)
 
