@@ -1,0 +1,82 @@
+{
+  "manifest_version": 3,
+  "name": "1219_최종_Keyword Surfing",
+  "description": "Intuitive browser navigation",
+  "version": "0.1",
+
+  "icons": {
+    "16": "image/surf.png",
+    "32": "image/surf.png",
+    "48": "image/surf.png",
+    "128": "image/surf.png"
+  },
+  "action": {
+    "default_title": "집중력 있는 웹서핑을 경험해보세요."
+  },
+  "host_permissions": [
+    "https://*/*", 
+    "https://*/",
+    "http://*/*",
+    "http://*/",
+    "https://cdnjs.cloudflare.com/*"
+  ],
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab", 
+    "scripting",
+    "webNavigation",
+    "webRequest",
+    "history",
+    "favicon"
+  ],
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["contents/content.js", "contents/emoji.js", "contents/score.js"],
+      "css": ["contents/emoji.css"],
+      "matches":[
+        "https://*/*", 
+        "https://*/",
+        "http://*/*",
+        "http://*/" 
+        ]
+    }
+  ],
+  "options_ui": {
+    "page": "popup/popup.html",
+    "open_in_tab": false
+  },
+
+
+  "chrome_url_overrides" : {
+    "newtab": "contents/onboarding.html"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["source_maps/jquery-1.10.2.min.map", " image/website.png", "image/surfer.png", "popup/popup.html", "image/nickname.png", "image/limit_time.png", "image/goal.png"],
+      "matches": [ "<all_urls>"]
+    }
+
+  ],
+  "commands": {
+    "shift_down": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Down",
+        "linux": "Ctrl+Shift+Down",
+        "mac": "Command+Shift+M"
+      },
+      "description": "Tab Tree shift down key"
+    },
+    "shift_up": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      },
+      "description": "Tab Tree shift up key"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+/* emoji.css */
+.your-emoji-class {
+    width: 130px !important;
+    height :120px !important;
+    position: fixed !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    z-index: 9998 !important;
+    cursor: pointer !important;
+}
+
+
+.your-box-class {
+    width: 130px !important;
+    height: 80px !important;
+    position: fixed !important;
+    background-color: #a4e8f2 !important;
+    bottom: 140px !important;
+    right: 10px !important;
+    z-index: 9999 !important;
+    cursor: pointer !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: black !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-style: normal !important;
+    vertical-align: middle !important;
+    line-height : normal !important;
+
+}
+
+.your-text-class{
+    top: 7px !important;
+    width: 100px !important;
+    height: 70px !important;
+    position: relative !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: black !important;
+    font-style: normal !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    vertical-align: middle !important;
+    line-height : normal !important;
+}

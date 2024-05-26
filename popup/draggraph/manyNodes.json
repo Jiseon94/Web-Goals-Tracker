@@ -1,0 +1,137 @@
+{
+    "user_id": 0,
+    "name": "Root Node",
+    "children": [
+        {
+            "user_id": 0,
+            "name": "Flossie Hickman",
+            "children": [
+                {
+                    "user_id": 0,
+                    "name": "Violet Arnold",
+                    "children": [
+                        {
+                            "user_id": 0,
+                            "name": "Buckner Carrillo",
+                            "children": [
+                                {
+                                    "user_id": 0,
+                                    "name": "Scott Poole"
+                                },
+                                {
+                                    "user_id": 1,
+                                    "name": "Travis Compton"
+                                }
+			    ]
+                        }
+                      ]
+                  }
+               ]
+         },
+         {
+            "user_id": 0,
+            "name": "Flossie Hickman",
+            "children": [
+                {
+                    "user_id": 0,
+                    "name": "Violet Arnold",
+                    "children": [
+                        {
+                            "user_id": 0,
+                            "name": "Buckner Carrillo",
+                            "children": [
+                                {
+                                    "user_id": 0,
+                                    "name": "Scott Poole"
+                                },
+                                {
+                                    "user_id": 1,
+                                    "name": "Travis Compton"
+                                }
+			    ]
+                        }
+                      ]
+                  }
+               ]
+         },
+         {
+            "user_id": 0,
+            "name": "Flossie Hickman",
+            "children": [
+                {
+                    "user_id": 0,
+                    "name": "Violet Arnold",
+                    "children": [
+                        {
+                            "user_id": 0,
+                            "name": "Buckner Carrillo",
+                            "children": [
+                                {
+                                    "user_id": 0,
+                                    "name": "Scott Poole"
+                                },
+                                {
+                                    "user_id": 1,
+                                    "name": "Travis Compton"
+                                }
+			    ]
+                        }
+                      ]
+                  }
+               ]
+         },
+         {
+            "user_id": 0,
+            "name": "Flossie Hickman",
+            "children": [
+                {
+                    "user_id": 0,
+                    "name": "Violet Arnold",
+                    "children": [
+                        {
+                            "user_id": 0,
+                            "name": "Buckner Carrillo",
+                            "children": [
+                                {
+                                    "user_id": 0,
+                                    "name": "Scott Poole"
+                                },
+                                {
+                                    "user_id": 1,
+                                    "name": "Travis Compton"
+                                }
+			    ]
+                        }
+                      ]
+                  }
+               ]
+         },
+         {
+            "user_id": 0,
+            "name": "Flossie Hickman",
+            "children": [
+                {
+                    "user_id": 0,
+                    "name": "Violet Arnold",
+                    "children": [
+                        {
+                            "user_id": 0,
+                            "name": "Buckner Carrillo",
+                            "children": [
+                                {
+                                    "user_id": 0,
+                                    "name": "Scott Poole"
+                                },
+                                {
+                                    "user_id": 1,
+                                    "name": "Travis Compton"
+                                }
+			    ]
+                        }
+                      ]
+                  }
+               ]
+         }
+
+    ]
+}
